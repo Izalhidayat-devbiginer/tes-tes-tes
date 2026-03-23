@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TES LEARNING</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>TES BUILD WEBSITE</h1>
+        <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#projects">Projek</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home" class="hero">
+         <h2>Helo, <span> i'm izall</span></h2>
+         <p>this my firs website soo.. if my website shortcomings, pliss provide and guidance"</p>
+         <button onclick="scrolltocontact()">Hubungi saya</button>
+    </section>
+
+    <section id="about" class="section">
+         <h2>About me if your corious :)</h2>
+         <p>saya baru saja berhasil membuat website pertaman saya, dan ini merupakan sesuatu yang ingin saya coba dari dulu. Jika wesite ini memiliki kekursangan atau kesalahan, mohon bimbingannya. Tertimakasih</p>
+    </section>
+
+                        <!-- PROJECTS -->
+
+    <section id="projects" class="section">
+         <h2>This my projects</h2>
+         <p>Ini adalah Projects yang sudah saya selesaikan</p>   
+
+        <div class="projects-list">
+            <div class="card"> 
+            <h3>Projeck 1</h3>
+                <p>Ini adalah projects pertma saya, mencapai Rank Imortal bintang 100 </p>
+                <img src="picture/sample.jpg" width="45%" height="45%" alt="rank"/>
+            </div>
+        
+             <div class="card">
+                <h3>Projects 2</h3>
+                <p>Mendapatkan title provinsi</p>
+            </div>
+
+            <div class="card">
+                <h3>Projects 3</h3>
+                <p>memiliki Win rate% yang tinggi</p>
+
+            </div>
+        </div>  
+    </section>
+
+                        <!-- CONTACT -->
+
+    <section id="Contact" class="section">
+        <h2>Kontak saya</h2>
+
+        <form id="formcontact">
+            <input type="text" placeholder="Masukan nama anda" required/>
+            <input type="email" placeholder="Masukan email anda" required/>
+            <textarea placeholder="masukan pesan anda" required></textarea>
+            <button type="submit">kirim</button>
+        </form>
+
+        <p id="message" class="message"></p>
+
+    </section>
+
+        <footer>
+            <p>&copy;2026 Izal, All rights resserved. </p>
+        </footer>
+     </body>
+ <script src="script.js"></script>
+</html>
