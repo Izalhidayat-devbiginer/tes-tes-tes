@@ -44,6 +44,26 @@ nav a {
 
 }
 
+.section { 
+    width: 100vh;
+    min-width: 100%;
+    background: linear-gradient(135deg, #00bcd4, #1e90ff);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font: 1.2em sans-serif;
+
+}
+
+.foto {
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 99px 5px rgb(241, 104, 40); 
+}
+
 .hero span {
     color: rgb(229, 255, 0);
 }
